@@ -64,3 +64,7 @@ config = VitsConfig(
    Add the metadata.csv file in the folder. (Not inside wavs). <br>
 1. follow this colab after you're done with the first step
    https://colab.research.google.com/drive/1v7MekB-aBm4YKCAB_8aHq7A2W5WD-zD8?authuser=1#scrollTo=OoF3FVlEK-vY
+   <br>
+   or
+   <br>
+   VITS_COQUI_TTS.ipynb file
