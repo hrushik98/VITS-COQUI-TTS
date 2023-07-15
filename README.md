@@ -9,12 +9,12 @@ Train a VITS model on Coqui framework using CUSTOM data.
 
 
 Format of metadata:
-`<audio-file-name>|<transcription>|<transcription>`
+`<audio-file-name-without-wav-suffix>|<transcription>|<transcription>`
 <br>
 example:
 `Audio1|Hey John, how you doing?|Hey John, how you doing?`
 <br>
-Note: omit the .wav suffix for Audio1
+
 
 
 # Let's start!
