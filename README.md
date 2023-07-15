@@ -34,8 +34,33 @@ for i in range(0, len(transcripts)):
 
 ```
 
+# VITS CONFIG 
+
+```python
+config = VitsConfig(
+    batch_size=32,
+    eval_batch_size=16,
+    num_loader_workers=4,
+    num_eval_loader_workers=4,
+    run_eval=True,
+    test_delay_epochs=-1,
+    epochs=2,
+    text_cleaner="phoneme_cleaners",
+    use_phonemes=True,
+    phoneme_language="en-us",
+    phoneme_cache_path=os.path.join(output_path, "phoneme_cache"),
+    print_step=25,
+    print_eval=False,
+    mixed_precision=True,
+    output_path=output_path,
+    datasets=[dataset_config],
+)
+
+```
+
 # Let's start!
 0. create a folder (ex: MyTTSdata) and a subfolder with the name "wavs". <br>
    Add the audio samples in the "wavs" sub-folder. <br>
-   Add the metadata.csv file in the folder. (Not inside wavs).
-1. 
+   Add the metadata.csv file in the folder. (Not inside wavs). <br>
+1. follow this colab after you're done with the first step
+   https://colab.research.google.com/drive/1v7MekB-aBm4YKCAB_8aHq7A2W5WD-zD8?authuser=1#scrollTo=OoF3FVlEK-vY
