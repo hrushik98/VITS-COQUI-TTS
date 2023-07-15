@@ -15,7 +15,7 @@ example:
 `Audio1|Hey John, how you doing?|Hey John, how you doing?`
 <br>
 
-Below is the code I have used to prepare metadata.csv <br> Note that I have first uploaded my transcripts into a folder called as `transcripts`.
+Below is the code I have used to prepare metadata.csv <br> Note that I have first uploaded my audio transcripts into a folder called as `transcripts` and then prepared the file.
 ```python
 import os
 import csv
